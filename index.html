@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DevClub Criador de Sites</title>
+  </head>
+
+  <body>
+    <p class="etiqueta">⚡ DevClub — Gerador com Inteligência Artificial</p>
+
+    <h1>
+      Crie sua Página
+      <br>
+      <span>com um prompt</span>
+    </h1>
+
+    <p class="subtitulo">Descreva o seu negócio e veja a IA criar uma página em milésimos.</p>
+
+    <div class="caixa-entrada">
+      <textarea id="texto-pagina" placeholder="Descreva seu negócio..."></textarea>
+      <button id="btn-gerar" onclick="gerarCodigo()">⚡️ Gerar</button>
+    </div>
+
+    <div class="status" id="status">Aguardando comando...</div>
+
+    <div class="caixa-resultado">
+      <pre class="bloco-codigo"></pre>
+      <iframe class="bloco-site"></iframe>
+    </div>
+
+  </body>
+
+  <script src="script.js"></script>
+
+</html>
