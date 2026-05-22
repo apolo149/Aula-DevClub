@@ -1,4 +1,4 @@
-const chave = "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" 
+const chave = "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" 
 const endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 const prompt = `Você é um designer web sênior nível Silicon Valley.
